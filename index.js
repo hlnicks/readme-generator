@@ -39,7 +39,7 @@ const questions = () => {
         // installation instructions
         {
             type: 'input',
-            name: 'steps',
+            name: 'install',
             message: 'Explain how to install your project:',
             default: 'There are no installation instructions.'
         },
@@ -62,7 +62,7 @@ const questions = () => {
         // contribution guidelines
         {
             type: 'input',
-            name: 'description',
+            name: 'contribution',
             message: 'Explain how another developer can contribute to your project (Required)'
         },
 
