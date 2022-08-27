@@ -22,8 +22,7 @@ function renderLicenseLink(license) {
   if (license === 'MIT') {
     return `[License: MIT](https://opensource.org/licenses/MIT)`;
   } else if (license === 'ISC') {
-    return `
-    [License: ISC](https://opensource.org/licenses/ISC)`;
+    return `[License: ISC](https://opensource.org/licenses/ISC)`;
   } else if (license === 'IBM') {
     return `[License: IBM](https://opensource.org/licenses/IPL-1.0)`;
   } else {
@@ -37,7 +36,7 @@ function renderLicenseSection(license) {
     return '';
   }
   return `This project is licensed under ${license}.
-  ${renderLicenseLink(license)}`;
+  - ${renderLicenseLink(license)}`;
 }
 
 // create a function to generate markdown for README
@@ -45,6 +44,7 @@ function generateMarkdown(data) {
   var readme = data;
   return `
   # ${readme.title}
+  ${renderLicenseBadge(readme.license)}
 
   ## Description
   ${readme.description}
@@ -58,13 +58,13 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Installation
-  ${readme.steps}
+  ${readme.install}
 
   ## Usage
   ${readme.usage}
 
   ## License
-  ${readme.license}
+  This project is licensed under ${readme.license}.
 
   ## How to Contribute
   ${readme.contribution}
