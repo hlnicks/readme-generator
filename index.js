@@ -11,8 +11,8 @@ const questions = () => {
             type: 'input',
             name: 'title',
             message: 'What is the title of your project? (Required)',
-            validate: nameInput => {
-                if (nameInput) {
+            validate: titleInput => {
+                if (titleInput) {
                     return true;
                 } else {
                     console.log('Please enter the title of your project.');
@@ -26,8 +26,8 @@ const questions = () => {
             type: 'input',
             name: 'description',
             message: 'Provide a brief description of your project (Required)',
-            validate: nameInput => {
-                if (nameInput) {
+            validate: descriptionInput => {
+                if (descriptionInput) {
                     return true;
                 } else {
                     console.log('Please provide a brief description of your project.')
@@ -49,8 +49,8 @@ const questions = () => {
             type: 'input',
             name: 'usage',
             message: 'Explain how to use your project (Required)',
-            validate: nameInput => {
-                if (nameInput) {
+            validate: usageInput => {
+                if (usageInput) {
                     return true;
                 } else {
                     console.log('Please explain how to use your project.')
@@ -79,13 +79,13 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'Which license would you like to use?',
-            choices: ['1', '2', '3', '4']
+            choices: ['MIT', 'ISC', 'IBM', 'SIL']
         },
 
         // github username
         {
             type: 'input',
-            name: 'username',
+            name: 'name',
             message: 'Enter your GitHub Username (Required)',
             validate: nameInput => {
                 if (nameInput) {
@@ -102,8 +102,8 @@ const questions = () => {
             type: 'input',
             name: 'repo',
             message: 'Enter the URL of your GitHub repository (Required)',
-            validate: nameInput => {
-                if (nameInput) {
+            validate: repoInput => {
+                if (repoInput) {
                     return true;
                 } else {
                     console.log('Please provide the URL of your GitHub repository.')
@@ -117,8 +117,8 @@ const questions = () => {
             type: 'input',
             name: 'email',
             message: 'Enter your email address (Required)',
-            validate: nameInput => {
-                if (nameInput) {
+            validate: emailInput => {
+                if (emailInput) {
                     return true;
                 } else {
                     console.log('Please enter your email address.')
