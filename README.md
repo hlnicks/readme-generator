@@ -5,17 +5,18 @@
 This project was created for a user to create a professional README. The user will answer the prompted questions. Their answers will then render to a README.md file in their respective sections.
 
 ## Screenshots
-From CLI:
+### From CLI:
 ![Screenshot](./images/1.png)
 
-Example of rendered README.md
+### Example of rendered README.md
 ![Screenshot](./images/2.png)
 
-Preview of rendered README
+### Preview of rendered README
 ![Screenshot](./images/3.png)
 
 ## Links
 - [Github Repository](https://github.com/hlnicks/readme-generator)
+- [Demonstration Video](https://drive.google.com/file/d/1nOH794-nt14nDC4zrgGUz9tQSFoXLgrx/view)
 
 ## Credits
 - [Original Repository](https://github.com/coding-boot-camp/potential-enigma)
