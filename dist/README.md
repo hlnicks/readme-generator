@@ -1,8 +1,8 @@
 
-  # l
+  # h
 
   ## Description
-  l
+  h
 
   ## Table of Contents
   - [Installation](#install)
@@ -16,14 +16,17 @@
   undefined
 
   ## Usage
-  l
+  h
+
+  ## License
+  MIT
 
   ## How to Contribute
-  l
+  h
 
   ## Tests
-  Use npm test to test the functionality of the application.
+  Use h to test the functionality of the application.
 
   ## Questions
-  Direct any questions or comments to l. To see more projects, visit l's profile at the following link:
-  - [Github Repository](https://github.com/l)
+  Direct any questions or comments to h. To see more projects, visit h's profile at the following link:
+  - [Github Repository](https://github.com/h)
