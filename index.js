@@ -136,7 +136,6 @@ function writeToFile(fileName, data) {
             }
             resolve({
                 ok: true,
-                message: 'README created'
             });
         });
     });
