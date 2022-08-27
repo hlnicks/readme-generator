@@ -4,6 +4,9 @@
 ## Description
 This project was created for a user to create a professional README. The user will answer the prompted questions. Their answers will then render to a README.md file in their respective sections.
 
+## Built With:
+- JavaScript
+
 ## Screenshots
 ### From CLI:
 ![Screenshot](./images/1.png)
